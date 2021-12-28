@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>PortFolio</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <h4>Kun Aldi Indarto</h4>
+        </div>
+        <ul>
+            <li><a href="#welcome-section">Home</a></li>
+            <li><a href="#projects">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <input type="checkbox" name="" id="">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="welcome-section">
+        <div class="content">
+            <h1>Hello</h1>
+            <h1>I am, Kun Aldi Indarto</h1>
+            <p>Job Seeker | Learner</p>
+            <p>D4 - Automation Engineering | Polman Bandung</p>
+        </div>
+        <!-- gambar pemanis -->
+        <figure>
+            <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="">
+            <figcaption>
+                asd
+            </figcaption>
+        </figure>
+    </section>
+    <section id="projects">
+        <div class="project-title">
+            <h1>My Projects</h1>
+            <span></span>
+        </div>
+        <div class="card-project">
+            <div class="card card-1">
+                <a href="https://codepen.io/solidarto/pen/vYeXaBj">
+                    <figure>
+                        <img class="project-tile" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
+                        <figcaption>
+                            Tribute Page Dennis Bergkamp
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="card card-2">
+                <a href="">
+                    <figure>
+                        <img class="project-tile" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                        <figcaption>
+                            Landing Page
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="card card-3">
+                <a href="https://codepen.io/solidarto/pen/dyVZvLN">
+                    <figure>
+                        <img class="project-tile" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                        <figcaption>
+                            Technical Documentation
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="card card-4">
+                <a href="http://polmanpms.online/index.php/login">
+                    <figure>
+                        <img class="project-tile" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                        <figcaption>
+                            Monitoring Peformance machine IoT
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="card card-5">
+                <a href="#">
+                    <figure>
+                        <img class="project-tile" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                        <figcaption>
+                            Lorem, ipsum dolor.
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="card card-6">
+                <a href="#">
+                    <figure>
+                        <img class="project-tile" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                        <figcaption>
+                            Lorem, ipsum dolor.
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="btn">
+                <a href="https://codepen.io/solidarto" target="_blank" id="profile-link">
+                    Show All >
+                </a>
+            </div>
+
+        </div>
+        <!-- <div class="project-tile">
+
+        </div> -->
+    </section>
+
+    <section id="contact-me">
+        <div class="tagline">
+            <h3>Let's work together...</h3>
+            <p>How do you take your coffee?</p>
+        </div>
+        <div class="social-media">
+            <a class="fb" href="#">
+                <i class='bx bxl-facebook-square'></i>
+                <p>Facebook</p>
+            </a>
+            <a href="#" class="github">
+                <i class='bx bxl-github' ></i>
+                <p>Github</p>
+            </a>
+            <a href="#" class="tw">
+                <i class='bx bxl-twitter' ></i>
+                <p>Twitter</p>
+            </a>
+            <a href="#" class="email">
+                <i class='bx bxl-gmail' ></i>
+                <p>Email</p>
+            </a>
+            <a href="#" class="linkedin">
+                <i class='bx bxl-linkedin-square' ></i>
+                <p>linkedin</p>
+            </a>
+        </div>
+
+    </section>
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav ul');
+    menuToggle.onchange = () => nav.classList.toggle('active'); 
+</script>    
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
+
